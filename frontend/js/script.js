@@ -8,7 +8,6 @@ const chat = document.querySelector(".chat")
 const chatForm = chat.querySelector(".chat__form")
 const chatInput = chat.querySelector(".chat__input")
 const chatMessages = chat.querySelector(".chat__messages")
-
 const colors = [
     "cadetblue",
     "darkgoldenrod",
@@ -17,9 +16,7 @@ const colors = [
     "hotpink",
     "gold"
 ]
-
 const user = { id: "", name: "", color: "" }
-
 let websocket
 
 const createMessageSelfElement = (content) => {
